@@ -16,8 +16,8 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: your-username/hello-world-action@v1
+      uses: khai1198/hello-world-action@v1
       with:
-        who-to-greet: 'your-name'
+        who-to-greet: 'khainq'
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time}}"
