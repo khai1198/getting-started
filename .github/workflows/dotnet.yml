@@ -16,7 +16,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: khai1198/hello-world-docker-action.git@v2
+      uses: khai1198/hello-world-docker-action@v2
       with:
         who-to-greet: 'khai1198'
     - name: Get the output time
